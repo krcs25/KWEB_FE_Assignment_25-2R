@@ -1,50 +1,16 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
 <head>
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #f9f9f9;
-    }
-    .card {
-      width: 500px;
-      height: 260px;
-      background: #fff;
-      padding: 16px 20px;
-    }
-
-    label {
-      font-size: 14px;
-      font-weight: bold;
-      display: block;
-      margin-bottom: 4px;
-    }
-    input[type="text"] {
-      width: 100%;
-      padding: 5px;
-      font-size: 14px;
-      border: 1px solid #ccc;
-    }
-    .radio-group {
-      display: flex;
-      gap: 10px;
-      font-size: 14px;
-    }
-    .etc-box {
-      width: 100%;
-      padding: 5px;
-      font-size: 14px;
-      border: 1px solid #ccc;
-    }
-  </style>
-</head>
+  </head>
 <body>
-  <div class="card">
-    
+
+  <div class="topbar">
+    내 정보
+  </div>
+
+  <div class="container">
     <div class="form-group">
       <label for="name">1. 이름</label>
       <input type="text" id="name" name="name">
@@ -74,5 +40,8 @@
       <input type="text" id="etc" name="etc" class="etc-box">
     </div>
   </div>
+
+  <button class="floating-btn">제출</button>
+
 </body>
 </html>
