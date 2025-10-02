@@ -1,0 +1,71 @@
+
+
+.topbar {
+  position: sticky;
+  top: 0;
+  background: #0b74ff;
+  color: white;
+  padding: 14px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-bottom-left-radius: 12px;  
+  border-bottom-right-radius: 12px;  
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;  
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* 텍스트 입력창 */
+input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;   /* 입력칸 둥글기 */
+  font-size: 14px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 16px;            /* 라디오 버튼 간격 */
+  align-items: center;
+}
+.radio-group label {
+  font-weight: 500;
+}
+
+.floating-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #0b74ff;
+  color: white;
+  border: none;
+  border-radius: 30px;  /* 버튼 둥글기 */
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background 0.2s;
+}
+.floating-btn:hover {
+  background: #095dcc;
+}
